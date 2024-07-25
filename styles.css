@@ -1,0 +1,78 @@
+.logo{
+    width: 9em;
+    height: auto;
+}
+body{
+    font-family: 'NType82-bold', 'Noto Sans Thai', 'NType82Mono';
+}
+.learn-more-btn{
+    background: #002F6C;
+    transition: .3s;
+}
+.learn-more-btn .btn:hover {
+    background-color: inherit;
+    color: white;
+    box-shadow: none;
+    border-color: inherit;
+    transform: scale(1.02);
+  }
+.learn-more-btn .btn:active,
+.learn-more-btn .btn:focus,
+.learn-more-btn .btn:active:focus {
+  background-color: inherit; 
+  color: white; 
+  box-shadow: none; 
+  border-color: inherit; 
+  outline: none; 
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    display: none;
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+.audio{
+    position: relative;
+}
+
+.drop-list{
+    position: absolute;
+    left: 0px;
+}
+.class-collapse{
+    padding-left: 5rem;
+}
+h1{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.1rem;
+
+}
+@media (min-width: 1000px) {
+    h1{
+        font-size: 4rem;
+    }
+    
+}
+.email{
+    width: 20rem;
+    height: 50px;
+}
+.email-box{
+    outline: none;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+.first-footer{
+    padding: 3rem;
+}
+hr{
+    background-color: white;
+}
